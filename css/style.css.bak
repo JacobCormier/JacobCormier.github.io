@@ -1,0 +1,145 @@
+/*Script.js for Jacob Cormier Portfolio website*/
+
+/*===== SETUP =====*/
+/* Universal Selector, defaults */
+/* Box-sizing and the box model fix */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10 px */
+  
+  width: 100vw;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  /* default text color is an off-white*/
+  color: #F0F3FF;
+  padding: 0;
+  margin: 0;
+  
+  /* This fixes the window having a slight horizontal scroll bar*/
+  max-width:100%;
+}
+
+body {
+  font-size: 1.6rem; /* default font size to 16 px */
+  background-color: #211951;
+  text-align: center;
+  font-family: "Lucida Sans", sans-serif;
+
+  /* This gradient is used to make the background more interesting than a flat color */
+  background-image: linear-gradient(to right, rgba(255,131,111,0.1), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(111,255,131,0.1) );
+
+  /* Small resolutions were causing the body element to become smaller than the screen width*/
+  width: 100vw;
+}
+
+img {
+
+  max-width: 50vw;
+  max-height: 50vh;
+  height: auto;
+  margin: auto;
+  border-radius: 20px;	
+}
+
+/* This is the base I use for each section to fit the screen properly */
+.fullPageElement {
+	width: 100vw;
+	height: 100vh;
+}
+
+
+/*===== LANDING PAGE =====*/
+	#introduction {
+		display: flex;
+		justify-content: center;
+		flex-grow: 1;
+		justify-content: space-evenly;
+		background-image: linear-gradient(to    right, rgba(0,0,0,0) , #836FFF);
+
+		/* I want the intro page to stick as a header for the rest of the page*/
+		position: sticky;
+		
+		/* Added a cool background blur to my header, so elements behind are still seen*/
+		backdrop-filter: blur(8px);
+		z-index: 1;
+	}
+
+	.introText {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: left;
+	  text-align: left; /* Adjust text alignment as needed */
+	  
+	  font-size: 4vw;
+
+
+	  margin-left: 2vw;
+	  text-wrap: nowrap;
+	  
+	  z-index: 2;
+	}
+
+	#introTextImage {
+		display: grid;
+		place-content: center;
+	}
+
+	#titleName {
+		position: sticky;
+		top: 10px;
+
+		/* top-most element */
+
+	}
+
+/*===== INTRO BLURB =====*/
+
+	h2 {
+	  /* First intro, short personal blurb */
+	  border: solid #F0F3FF; /* temp color */
+	  padding: 50px;
+	  border-radius: 50px;
+	}
+
+	.textBackdrop {
+	  /* unused so far*/
+	  background-color:darkslateblue; 
+	}
+
+/*===== MY PROJECTS =====*/
+	#my-projects {
+		/* This and other-projects will need to be changed to grids*/
+		display: flex;
+		flex-direction: column;
+	}
+
+	.projects {
+
+	}
+
+	.projects:hover {
+		opacity: 0.5;
+		border: 5px solid #15F5BA;
+	}
+
+/*===== OTHER PROJECTS =====*/
+
+	#other-projects{
+		display: flex;
+		flex-direction: column;
+	}
+
+
+
+
+
+.debug {
+	background-color: #15F5BA;
+}
+
