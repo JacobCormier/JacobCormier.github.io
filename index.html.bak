@@ -6,6 +6,7 @@
 		<title>Jacob Cormier | Game Developer</title>
 		<link rel="stylesheet" href="css/style.css">
 		<script src="js/script.js" defer></script>
+		<script src="https://kit.fontawesome.com/b096eddb2d.js" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
@@ -33,6 +34,13 @@
 			<p>
 				As a developer, I am always learning new skills. These are some of the languages and programs I've been using.
 			</p>
+			
+			<ul>
+				<li style="display: flex;">
+					<i class="fa-brands fa-unity fa-2x" style="color: #f0f3ff;"></i>
+				</li>
+			</ul>
+			
 		  </div>
 		</section>
 	  
@@ -65,7 +73,7 @@
 					<!-- javascript injects project list here -->
 					<!-- but not yet though -->
 					<li class="projects">
-						<p>Wow cool game</p>
+						<p>Coffee Run goes here</p>
 					</li>
 					<li class="projects">
 						<p>Wow cool game</p>
