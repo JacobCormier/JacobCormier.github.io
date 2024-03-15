@@ -25,6 +25,10 @@
 		  </div>
 		</section>
 
+			
+		<p style="padding: 30px 0px; font-size: 6.0rem;">Please watch your step! This site is still a work in progress.</p>
+
+
 		<!-- quick introduction -->
 		<section class="fullPageElement">
 		  <div class = "spaceElementsVertical">
@@ -35,6 +39,7 @@
 				As a developer, I am always learning new skills. These are some of the languages and programs I've been using.
 			</p>
 			
+			<!-- Here are all of the logos I used from FontAwesome -->
 			<ul style="display: flex; list-style-type: none; padding: 0;">
 				<li>
 					<i class="fa-brands fa-unity fa-4x" style="color: #f0f3ff;"></i>
@@ -49,7 +54,7 @@
 					<i class="fa-brands fa-js fa-4x" style="color: #f0f3fa;"></i>
 				</li>
 				<li>
-					<i class="fa-brands fa-github" style="color: #f0f3ff;"></i>
+					<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;"></i>
 				</li>
 			</ul>
 			
