@@ -58,6 +58,11 @@ img {
 	padding-bottom: 30px;
 }
 
+.textBackdrop {
+  /* unused so far*/
+  background-color:darkslateblue; 
+}
+
 
 /*===== LANDING PAGE =====*/
 	#introduction {
@@ -125,11 +130,6 @@ img {
 	  max-width: 900px;
 	  width: 100%;
 
-	}
-
-	.textBackdrop {
-	  /* unused so far*/
-	  background-color:darkslateblue; 
 	}
 
 /*===== MY PROJECTS =====*/
