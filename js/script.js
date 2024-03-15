@@ -25,7 +25,7 @@
 			listItem.setAttribute("id", this.name + "-project");
 			listItem.innerHTML = `
 			<a href="${this.hyperlink}">
-				<img src="images/${this.imageSource}" alt="Picture of "${this.name}>
+				<img class="projects" src="images/${this.imageSource}" alt="Picture of "${this.name}>
 			</a>
 			<p>
 				${this.description}

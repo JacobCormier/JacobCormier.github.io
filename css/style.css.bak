@@ -127,9 +127,9 @@ img {
 		/* This is meant to be the formatting for the images of projects I've worked on */
 		border-radius: 25px;
 		background-image: linear-gradient(to    right, rgba(0,0,0,0) , #836FFF );
-		max-width: 400px;
+		width: 30vw;
 		height: 150px;
-		padding: 30px;
+		padding: 15px;
 		border: 5px solid #15F5BA;
 		border: 5px solid #F0F3FF; /* temp color */
 	  
@@ -148,7 +148,6 @@ img {
 	.projectItem {
 		display: flex;
 		justify-content: center;
-		
 	}
 
 /*===== OTHER PROJECTS =====*/
