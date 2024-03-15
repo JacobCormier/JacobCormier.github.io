@@ -140,8 +140,10 @@ img {
 		padding: 0px 20vw;
 	}
 	
-	#my-projects img{
+	.projects img{
+		/* This one doesn't apply to the image like I want */
 		max-width: 400px;
+		border-radius: 20px;	
 	}
 
 	.projects {

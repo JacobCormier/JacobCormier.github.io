@@ -25,7 +25,7 @@
 			listItem.setAttribute("id", this.name + "-project");
 			listItem.innerHTML = `
 			<a href="${this.hyperlink}">
-				<img class="projects" src="images/${this.imageSource}" alt="Picture of "${this.name}>
+				<img style="border-radius:25px" class="projects" src="images/${this.imageSource}" alt="Picture of "${this.name}>
 			</a>
 			<p>
 				${this.description}
@@ -74,6 +74,7 @@
 
 	// secondary section, coffee run will go here
 	const otherProjectSection = document.getElementById("other-projects");
+	
 	
 	// This function is called once on load to setup EventListeners
 	function updatePage() {
