@@ -100,11 +100,23 @@ img {
 
 /*===== INTRO BLURB =====*/
 
+	.spaceElementsVertical {
+		margin-top: 20vw;
+		margin-bottom: 20vw;
+		
+		    display: flex;
+            justify-content: center; /* Horizontally center the child elements */
+            align-items: center;
+			flex-direction: column;
+	}
+
 	h2 {
 	  /* First intro, short personal blurb */
 	  border: solid #F0F3FF; /* temp color */
 	  padding: 50px;
 	  border-radius: 50px;
+	  max-width: 900px;
+
 	}
 
 	.textBackdrop {
@@ -128,7 +140,7 @@ img {
 		border-radius: 25px;
 		background-image: linear-gradient(to    right, rgba(0,0,0,0) , #836FFF );
 		width: 30vw;
-		height: 150px;
+		height: auto;
 		padding: 15px;
 		border: 5px solid #15F5BA;
 		border: 5px solid #F0F3FF; /* temp color */
