@@ -54,7 +54,7 @@ img {
 
 .bigTextWithTopPadding {
 	font-size: 4.8rem;
-	padding-top: 60px;
+	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
@@ -150,7 +150,7 @@ img {
 		width: 30vw;
 		height: auto;
 		padding: 15px;
-		border: 5px solid #F0F3FF; /* temp color */
+		border: 10px solid #F0F3FF; /* temp color */
 	  
 		margin: auto;
 		
