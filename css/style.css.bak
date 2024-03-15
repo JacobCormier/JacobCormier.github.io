@@ -38,7 +38,6 @@ body {
 }
 
 img {
-
   max-width: 50vw;
   max-height: 50vh;
   height: auto;
@@ -56,6 +55,8 @@ img {
 	font-size: 4.8rem;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .textBackdrop {
