@@ -37,20 +37,20 @@
 			
 			<ul style="display: flex; list-style-type: none; padding: 0;">
 				<li>
-					<i class="fa-brands fa-unity" style="color: #f0f3ff;"></i>
+					<i class="fa-brands fa-unity fa-4x" style="color: #f0f3ff;"></i>
 				</li>
 				<li>
-					<i class="fa-brands fa-html5" style="color: #f0f3ff;"></i>
+					<i class="fa-brands fa-html5 fa-4x" style="color: #f0f3ff;"></i>
 				</li>
 				<li>
-					<i class="fa-brands fa-css3-alt" style="color: #f0f3ff;"></i>
+					<i class="fa-brands fa-css3-alt fa-4x" style="color: #f0f3ff;"></i>
 				</li>
 				<li>
-					<i class="fa-brands fa-js" style="color: #f0f3fa;"></i>
+					<i class="fa-brands fa-js fa-4x" style="color: #f0f3fa;"></i>
 				</li>
-				
-				
-				
+				<li>
+					<i class="fa-brands fa-github" style="color: #f0f3ff;"></i>
+				</li>
 			</ul>
 			
 		  </div>
