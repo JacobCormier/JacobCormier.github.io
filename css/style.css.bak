@@ -52,6 +52,12 @@ img {
 	height: 100vh;
 }
 
+.bigTextWithTopPadding {
+	font-size: 4.8rem;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
 
 /*===== LANDING PAGE =====*/
 	#introduction {
@@ -104,10 +110,11 @@ img {
 		margin-top: 20vw;
 		margin-bottom: 20vw;
 		
-		    display: flex;
-            justify-content: center; /* Horizontally center the child elements */
-            align-items: center;
-			flex-direction: column;
+		/* Lots of flex code to align this, probably not permanent... */
+		display: flex;
+        justify-content: center; /* Horizontally center the child elements */
+        align-items: center;
+		flex-direction: column;
 	}
 
 	h2 {
@@ -116,6 +123,7 @@ img {
 	  padding: 50px;
 	  border-radius: 50px;
 	  max-width: 900px;
+	  width: 100%;
 
 	}
 
