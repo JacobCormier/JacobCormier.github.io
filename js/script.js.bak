@@ -21,7 +21,7 @@
 		
 		createHTML() {
 			const listItem = document.createElement("li");
-			listItem.classList.add("projects");
+			//listItem.classList.add("projects");
 			listItem.setAttribute("id", this.name + "-project");
 			listItem.innerHTML = `
 			<a href="${this.hyperlink}">
