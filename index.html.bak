@@ -92,12 +92,6 @@
 					<li class="projects">
 						<p>Coffee Run goes here</p>
 					</li>
-					<li class="projects">
-						<p>Wow cool game</p>
-					</li>
-					<li class="projects">
-						<p>Wow cool game</p>
-					</li>
 				</ul>
 			</div>
 			
@@ -111,9 +105,26 @@
 			  About Me
 			</h4>
 			<p>
-				I am an enthuastic game designer and developer, 
+				I am an enthuastic game developer and designer, 
 				with excellent interpersonal communication skills and a thirst to create. 
-				I started on this career path because I find the work compelling and deeply rewarding.
+				<br>
+				Making games has always been something I've been drawn to in all forms, 
+				<br>
+				from programming my first game,
+				<br>
+				to becoming a Game Master for Dungeons & Dragons,
+				<br>
+				and even creating make-believe games with friends as children,
+				<br>
+				I started on this career path because I have found no career nearly as compelling and deeply rewarding.
+				
+				<br>
+				When I am not scratching my head over bugs in my code you can find me with my 
+				rogue of a cat Mochi, as he steals every blanket in the house and 
+				hordes them like a dragon.
+				<br>
+				I live in New Brunswick, Canada where I spend my most of my days
+				programming, consuming music, games, and film, reorganizing blankets and spending time with family.
 			</p>
 				<img src="images/Mochi&Me.jpg"        alt="Picture of me and my cat, Mochi">
 		  </div>
