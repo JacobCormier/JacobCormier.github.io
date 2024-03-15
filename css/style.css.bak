@@ -61,7 +61,8 @@ img {
 
 .textBackdrop {
   /* unused so far*/
-  background-color:darkslateblue; 
+  
+  background-image: linear-gradient(to    right, rgba(0,0,0,0) , #836FFF);
 }
 
 

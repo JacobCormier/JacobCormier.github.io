@@ -39,7 +39,7 @@
 		<!-- my games -->
 		<section>
 		  <div>
-			<h3 class = "bigTextWithTopPadding">
+			<h3 class = "bigTextWithTopPadding textBackdrop">
 			  Here are some of my personal projects!
 			</h3>
 			
@@ -55,7 +55,7 @@
 		<!-- games i've worked on -->
 		<section>
 		  <div>
-			<h3 class = "bigTextWithTopPadding">
+			<h3 class = "bigTextWithTopPadding textBackdrop">
 			  Here are other projects I've been involved with!
 			</h3>
 			
@@ -82,7 +82,7 @@
 		<!-- about me -->
 		<section class="fullPageElement">
 		  <div>
-			<h4 class = "bigTextWithTopPadding">
+			<h4 class = "bigTextWithTopPadding textBackdrop">
 			  About Me
 			</h4>
 			<p>
