@@ -137,6 +137,7 @@ img {
 		/* This and other-projects will need to be changed to grids*/
 		display: flex;
 		flex-direction: column;
+		padding: 0px 20vw;
 	}
 	
 	#my-projects img{
