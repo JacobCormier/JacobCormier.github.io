@@ -176,7 +176,7 @@ img {
 	    bottom: 100%;
 	    left: 50%;
 	    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
-		max-width: 4em;
+		max-width: none;
 	 
 	  /* Position the tooltip text - see examples below! */
 	  position: absolute;
