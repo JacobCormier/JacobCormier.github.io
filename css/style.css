@@ -132,6 +132,11 @@ img {
 	  width: 100%;
 
 	}
+	
+	.skillsLogo {
+		/* used for the images not created with fontawesome */
+		max-width: 4em;
+	}
 
 /*===== MY PROJECTS =====*/
 	#my-projects {
