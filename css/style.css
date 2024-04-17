@@ -133,10 +133,62 @@ img {
 
 	}
 	
-	.skillsLogo {
+	.skillGrid {
+		display: grid; 
+		grid-template-columns: auto auto auto;
+		list-style-type: none; 
+	}
+	
+	.skillGrid li{
+		margin: 20px;
+	}
+	
+	.skillsLogoImage {
 		/* used for the images not created with fontawesome */
+		
+		  /* Undoing the changes from img element*/
+		  max-width: none;
+		  max-height: none;
+		  height: auto;
+		  margin: auto;
+		  border-radius: 0px;	
+		
+		height: 4em;
 		max-width: 4em;
 	}
+	
+	
+	/* Tooltip container */
+	.tooltip {
+	  position: relative;
+	  display: inline-block;
+	}
+
+	/* Tooltip text */
+	.tooltip .tooltiptext {
+	  visibility: hidden;
+	  background-color: #836FFF;
+	  color: #fff;
+	  text-align: center;
+	  border-radius: 6px;
+	  
+	    width: 120px;
+	    bottom: 100%;
+	    left: 50%;
+	    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+		max-width: none;
+	 
+	  /* Position the tooltip text - see examples below! */
+	  position: absolute;
+	  z-index: 1;
+	}
+
+	/* Show the tooltip text when you mouse over the tooltip container */
+	.tooltip:hover .tooltiptext {
+	  visibility: visible;
+	}
+
+
 
 /*===== MY PROJECTS =====*/
 	#my-projects {
