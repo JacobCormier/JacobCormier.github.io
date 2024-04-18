@@ -62,6 +62,8 @@ img {
 .textBackdrop {
   /* unused so far*/
   background-image: linear-gradient(to    right, rgba(0,0,0,0) , #836FFF);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 
@@ -131,16 +133,27 @@ img {
 	  max-width: 900px;
 	  width: 100%;
 
+	  background-image: linear-gradient(to    right, rgba(0,0,0,0) , #836FFF);
+
+	}
+	
+	.asADeveloper {
+		margin: 50px;
 	}
 	
 	.skillGrid {
 		display: grid; 
 		grid-template-columns: auto auto auto;
+		column-gap: 20vw;
 		list-style-type: none; 
 	}
 	
 	.skillGrid li{
 		margin: 20px;
+		
+		background-image: linear-gradient(to    right, rgba(0,0,0,0) , #836FFF);
+		padding: 10px;
+		border-radius: 10px;
 	}
 	
 	.skillsLogoImage {
