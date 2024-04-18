@@ -38,6 +38,7 @@
 
 	// Projects Section
 	
+	//This comment is to show the format
 		//const templateProject = new Project(
 		//	"",
 		//	"",

@@ -74,7 +74,7 @@
 
 	// secondary section, coffee run will go here
 	const otherProjectSection = document.getElementById("other-projects");
-	
+	//otherProjectSection.append(coffeeRun.html);
 	
 	// This function is called once on load to setup EventListeners
 	function updatePage() {
