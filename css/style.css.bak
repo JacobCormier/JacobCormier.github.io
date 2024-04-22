@@ -132,11 +132,7 @@ img {
 	  border-radius: 50px;
 	  max-width: 900px;
 	  width: 100%;
-	  
-	  margin-left: 5vw;
-	  margin-right: 5vw;
-	  
-	  
+
 	  background-image: linear-gradient(to    right, rgba(0,0,0,0) , #836FFF);
 
 	}
