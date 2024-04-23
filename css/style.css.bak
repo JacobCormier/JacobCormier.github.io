@@ -127,6 +127,8 @@ img {
 
 	h2 {
 	  /* First intro, short personal blurb */
+	  font-size: 3.6vw;
+	  
 	  border: solid #F0F3FF; /* temp color */
 	  padding: 50px;
 	  border-radius: 50px;
@@ -240,7 +242,7 @@ img {
 
 	.projects:hover {
 		opacity: 0.5;
-		border: 10px solid #15F5BA;
+		border: 20px solid #15F5BA;
 	}
 	
 	.projectItem {
