@@ -38,6 +38,7 @@
 
 	// Projects Section
 	
+	//This comment is to show the format
 		//const templateProject = new Project(
 		//	"",
 		//	"",
@@ -87,7 +88,7 @@
 			console.log("RESIZED WINDOW");
 			// In the event the window is resized, forces the scroll back to beginning
 			// to avoid breaking formatting and expected results.
-			window. scrollTo(0, 0);
+			isHeaderActive = false;
 			handleTitleHeader();
 		})
 	}

@@ -86,9 +86,11 @@
 		})
 		window.addEventListener("resize", (event) => {
 			console.log("RESIZED WINDOW");
-			// In the event the window is resized, forces the scroll back to beginning
-			// to avoid breaking formatting and expected results.
-			window. scrollTo(0, 0);
+			
+			//Set is header active to false to reset for new screen size
+			isHeaderActive = false;
+			
+			
 			handleTitleHeader();
 		})
 	}
