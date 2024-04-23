@@ -140,8 +140,9 @@ img {
 	.asADeveloper {
 		margin: 50px;
 		
-		font-size: 3.2rem;
+		font-size: 1.5vw;
 		width: 60vw;
+		min-width: 90vw;
 
 	}
 	

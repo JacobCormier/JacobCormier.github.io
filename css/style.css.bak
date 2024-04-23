@@ -139,6 +139,10 @@ img {
 	
 	.asADeveloper {
 		margin: 50px;
+		
+		font-size: 1.5vw;
+		width: 60vw;
+
 	}
 	
 	.skillGrid {

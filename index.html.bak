@@ -26,13 +26,13 @@
 		</section>
 
 			
-		<p style="padding: 30px 0px; font-size: 6.0rem;">Please watch your step! This site is still a work in progress.</p>
+		<p style="padding: 30px 0px; font-size: 3vw;">Please watch your step! This site is still a work in progress.</p>
 
 
 		<!-- quick introduction & skills-->
 		<section>
 		  <div class = "spaceElementsVertical">
-			<h2 style="font-size:4.8rem">
+			<h2 style="font-size: 5vw">
 				Game Developer & Designer
 			</h2>
 			<p class="asADeveloper textBackdrop">
@@ -96,86 +96,7 @@
 						<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;" alt="GitHub"></i>
 						<span class="tooltiptext">GitHub</span>
 					</div>
-				</li>
-				
-				
-				<!-- TEMPORARY -->
-				
-				<li>
-					<div class="tooltip">
-						<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;" alt="GitHub"></i>
-						<span class="tooltiptext">GitHub</span>
-					</div>
-				</li>
-				<li>
-					<div class="tooltip">
-						<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;" alt="GitHub"></i>
-						<span class="tooltiptext">GitHub</span>
-					</div>
-				</li>
-				<li>
-					<div class="tooltip">
-						<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;" alt="GitHub"></i>
-						<span class="tooltiptext">GitHub</span>
-					</div>
-				</li>
-				<li>
-					<div class="tooltip">
-						<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;" alt="GitHub"></i>
-						<span class="tooltiptext">GitHub</span>
-					</div>
-				</li>
-				<li>
-					<div class="tooltip">
-						<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;" alt="GitHub"></i>
-						<span class="tooltiptext">GitHub</span>
-					</div>
-				</li>
-				<li>
-					<div class="tooltip">
-						<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;" alt="GitHub"></i>
-						<span class="tooltiptext">GitHub</span>
-					</div>
-				</li>
-				<li>
-					<div class="tooltip">
-						<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;" alt="GitHub"></i>
-						<span class="tooltiptext">GitHub</span>
-					</div>
-				</li>
-				<li>
-					<div class="tooltip">
-						<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;" alt="GitHub"></i>
-						<span class="tooltiptext">GitHub</span>
-					</div>
-				</li>
-				<li>
-					<div class="tooltip">
-						<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;" alt="GitHub"></i>
-						<span class="tooltiptext">GitHub</span>
-					</div>
-				</li>
-				<li>
-					<div class="tooltip">
-						<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;" alt="GitHub"></i>
-						<span class="tooltiptext">GitHub</span>
-					</div>
-				</li>
-				<li>
-					<div class="tooltip">
-						<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;" alt="GitHub"></i>
-						<span class="tooltiptext">GitHub</span>
-					</div>
-				</li>
-				<li>
-					<div class="tooltip">
-						<i class="fa-brands fa-github fa-4x" style="color: #f0f3ff;" alt="GitHub"></i>
-						<span class="tooltiptext">GitHub</span>
-					</div>
-				</li>
-				
-				<!-- -->
-				
+				</li>	
 				
 			</ul> 
 			
