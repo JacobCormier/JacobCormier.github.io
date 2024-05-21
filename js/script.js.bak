@@ -27,9 +27,14 @@
 			<a href="${this.hyperlink}">
 				<img class="projects" src="images/${this.imageSource}" alt="Picture of "${this.name}>
 			</a>
-			<p>
-				${this.description}
-			</p>
+			<div>
+				<p>
+					${this.name}
+				</p>
+				<p>
+					${this.description}
+				</p>
+			<div>
 			`
 			
 			return listItem;
@@ -86,9 +91,11 @@
 		})
 		window.addEventListener("resize", (event) => {
 			console.log("RESIZED WINDOW");
-			// In the event the window is resized, forces the scroll back to beginning
-			// to avoid breaking formatting and expected results.
+			
+			//Set is header active to false to reset for new screen size
 			isHeaderActive = false;
+			
+			
 			handleTitleHeader();
 		})
 	}

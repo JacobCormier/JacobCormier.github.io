@@ -27,9 +27,14 @@
 			<a href="${this.hyperlink}">
 				<img class="projects" src="images/${this.imageSource}" alt="Picture of "${this.name}>
 			</a>
-			<p>
-				${this.description}
-			</p>
+			<div>
+				<p style="font-weight: 900;">
+					${this.name}
+				</p>
+				<p>
+					${this.description}
+				</p>
+			<div>
 			`
 			
 			return listItem;
