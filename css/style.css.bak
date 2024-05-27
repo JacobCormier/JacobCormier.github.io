@@ -243,6 +243,7 @@ img {
 	.projects:hover {
 		opacity: 0.5;
 		border: 20px solid #15F5BA;
+		padding: 5px;
 	}
 	
 	.projectItem {
