@@ -28,7 +28,7 @@
 				<img class="projects" src="images/${this.imageSource}" alt="Picture of "${this.name}>
 			</a>
 			<div>
-				<p style="font-weight: 900;">
+				<p style="font-weight: 900; font-size: 3.2rem;">
 					${this.name}
 				</p>
 				<p>

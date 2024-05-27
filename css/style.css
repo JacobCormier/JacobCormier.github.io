@@ -251,6 +251,9 @@ img {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		
+		/*Temporary gap for Project Image & Text*/
+		gap: 30px;
 	}
 
 /*===== OTHER PROJECTS =====*/

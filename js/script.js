@@ -45,10 +45,10 @@
 	
 	//This comment is to show the format
 		//const templateProject = new Project(
-		//	"",
-		//	"",
-		//	"",
-		//	""
+		//	"PROJECT_NAME_TEXT",
+		//	"PROJECT_THUMBNAIL_FILENAME",
+		//	"PROJECT_DESCRIPTION_TEXT",
+		//	"PROJECT_URL"
 		//);
 		
 	const helicopterGame = new Project(
