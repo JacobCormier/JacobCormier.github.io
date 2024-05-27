@@ -54,14 +54,14 @@
 	const helicopterGame = new Project(
 		"Helicopter Game",
 		"HelicopterGame.png",
-		"This is a classic flash game that I loved playing when I was young. I recreated it in my own game engine",
+		"This is a classic flash game that I loved playing when I was young. Using a game engine I created, I learned about all of the elements required to recreate this game as faithfully as possible. I had a lot of fun making my version of the original Flappy Bird!",
 		"https://jacob-cormier.itch.io/helicopter-game"
 	);
 	
 	const fishGame = new Project(
 		"Pacific Panic",
 		"PacificPanic.png",
-		"This is a game created in a custom game engine using C++, SDL and OpenGL. Swim to survive as long as you can! I had a lot of fun making this colorful and chaotic game.",
+		"This is a game created in a custom game engine using C++, SDL and OpenGL. Swim to survive as long as you can! I had a lot of fun making this colorful and chaotic game, see if you can unlock the Mystery Fish!",
 		"https://jacob-cormier.itch.io/pacific-panic"
 	);
 	
@@ -89,6 +89,7 @@
 		window.addEventListener("scroll", (event) => {
 			handleTitleHeader();
 		})
+		// add an eventListener to the window for resizing
 		window.addEventListener("resize", (event) => {
 			console.log("RESIZED WINDOW");
 			
