@@ -23,6 +23,8 @@
 			const listItem = document.createElement("li");
 			listItem.classList.add("projectItem");
 			listItem.setAttribute("id", this.name + "-project");
+			
+			// Some of the inner HTML has a bunch of styles coded directly into it
 			listItem.innerHTML = `
 			<a href="${this.hyperlink}">
 				<img class="projects" src="images/${this.imageSource}" alt="Picture of "${this.name}>
