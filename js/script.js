@@ -27,7 +27,7 @@
 			<a href="${this.hyperlink}">
 				<img class="projects" src="images/${this.imageSource}" alt="Picture of "${this.name}>
 			</a>
-			<div>
+			<div style="padding: 20px">
 				<p style="font-weight: 900; font-size: 3.2rem;">
 					${this.name}
 				</p>

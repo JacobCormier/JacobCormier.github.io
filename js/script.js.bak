@@ -89,6 +89,7 @@
 		window.addEventListener("scroll", (event) => {
 			handleTitleHeader();
 		})
+		// add an eventListener to the window for resizing
 		window.addEventListener("resize", (event) => {
 			console.log("RESIZED WINDOW");
 			

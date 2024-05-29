@@ -249,10 +249,27 @@ img {
 	
 	.projectItem {
 		display: flex;
+		flex-direction: row;
+		
 		justify-content: center;
 		align-items: center;
+		
+		/*Temporary gap for Project Image & Text*/
 		gap: 30px;
+		
+		border-radius: 25px;
+		
+		background-image: linear-gradient(to    right, rgba(0,0,0,0) , #836FFF );
+		margin-top: 50px;
 	}
+	
+	/* For mobile phones: */
+	@media only screen and (max-width: 900px) {
+	.projectItem{
+		flex-direction: column;
+		gap: 0px;
+	}
+}
 
 /*===== OTHER PROJECTS =====*/
 
