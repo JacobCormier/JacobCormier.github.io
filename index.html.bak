@@ -1,6 +1,7 @@
 
 
 <!--Changes still required: -->
+	<!--Adding professional photo -->
 	<!--Proper sizing and spacing on the skill grid-->
 	<!--Personal Project section needs to have a background for each entry, text and picture sized properly-->
 	<!--Coffee Run -->
@@ -143,7 +144,7 @@
 					<!-- javascript injects project list here -->
 					<!-- but not yet though -->
 					<li class="projects">
-						<p>Coffee Run goes here</p>
+						<!-- javascript injects project list here -->
 					</li>
 				</ul>
 			</div>

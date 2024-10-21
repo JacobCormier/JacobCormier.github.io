@@ -76,11 +76,25 @@
 	
 	// Team Project Section
 	
-		const soulSeedGame = new Project(
+	
+	const coffeeRunGame = new Project(
+		"Coffee Run",
+		"CoffeeRun_Title.png",
+		"This was created using as part of a week-long game jam",
+		"https://jacob-cormier.itch.io/coffee-run"
+	);
+	
+	const soulSeedGame = new Project(
 		"Soul Seed",
 		"Soul-Seed-Splash.png",
-		"This was created using as part of a week-long game jam, the theme was Death Is Good.",
+		"This was created using as part of a week-long game jam, the theme was Death Is Good. The game was made by a team of 5 including myself, Andrew Hawboldt, Bradley Brooker, Quinton Kennett and Trevor Turner",
 		"https://strangetimepiece.itch.io/soul-seed"
+	);
+	const diceOfDoomGame = new Project(
+		"Dice Of Doom",
+		"Soul-Seed-Splash.png",
+		"This game was created with Unity in a one month school project, along with my partner Jesse Henry. The game is a roguelike dice builder, where players roll a 20-sided die to defeat enemies who stand in their way. Each time an enemy is defeated, you can upgrade your die! How far can you roll before you meet your doom?",
+		"https://jacob-cormier.itch.io/dice-of-doom"
 	);
 
 	// append the html into the appropriate section
@@ -92,8 +106,10 @@
 
 	// secondary section, coffee run will go here
 	const otherProjectSection = document.getElementById("other-projects");
-	//otherProjectSection.append(coffeeRun.html);
+	otherProjectSection.append(coffeeRunGame.html);
 	otherProjectSection.append(soulSeedGame.html);
+	otherProjectSection.append(diceOfDoomGame.html);
+	
 	
 	// This function is called once on load to setup EventListeners
 	function updatePage() {
