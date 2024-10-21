@@ -76,14 +76,7 @@
 	
 	// Team Project Section
 	
-	
-	const coffeeRunGame = new Project(
-		"Coffee Run",
-		"CoffeeRun_Title.png",
-		"This was created using as part of a week-long game jam",
-		"https://jacob-cormier.itch.io/coffee-run"
-	);
-	
+		
 	const soulSeedGame = new Project(
 		"Soul Seed",
 		"Soul-Seed-Splash.png",
@@ -96,6 +89,12 @@
 		"This game was created with Unity in a one month school project, along with my partner Jesse Henry. The game is a roguelike dice builder, where players roll a 20-sided die to defeat enemies who stand in their way. Each time an enemy is defeated, you can upgrade your die! How far can you roll before you meet your doom?",
 		"https://jacob-cormier.itch.io/dice-of-doom"
 	);
+	const coffeeRunGame = new Project(
+		"Coffee Run",
+		"CoffeeRun_Title.png",
+		"This was created using as part of a week-long game jam, the theme was It's Not Supposed To Do That! This game was made by myself, Bradley Hasson, Jesse Henry and Travis Wilson",
+		"https://jacob-cormier.itch.io/coffee-run"
+	);
 
 	// append the html into the appropriate section
 	const projectSection = document.getElementById("my-projects");
@@ -106,9 +105,9 @@
 
 	// secondary section, coffee run will go here
 	const otherProjectSection = document.getElementById("other-projects");
-	otherProjectSection.append(coffeeRunGame.html);
 	otherProjectSection.append(soulSeedGame.html);
 	otherProjectSection.append(diceOfDoomGame.html);
+	otherProjectSection.append(coffeeRunGame.html);
 	
 	
 	// This function is called once on load to setup EventListeners
