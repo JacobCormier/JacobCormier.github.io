@@ -218,6 +218,13 @@ img {
 		padding: 0px 20vw;
 	}
 	
+		#other-projects {
+		/* This and other-projects will need to be changed to grids*/
+		display: flex;
+		flex-direction: column;
+		padding: 0px 20vw;
+	}
+	
 	.projects img{
 		/* This one doesn't apply to the image like I want */
 		max-width: 400px;
@@ -263,7 +270,7 @@ img {
 		margin-top: 50px;
 	}
 	
-	/* For mobile phones: */
+	/* Project items will be in a column if screen is too small */
 	@media only screen and (max-width: 900px) {
 	.projectItem{
 		flex-direction: column;
