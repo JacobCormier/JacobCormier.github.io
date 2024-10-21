@@ -73,16 +73,27 @@
 		"This was created using Love2D as part of a week-long game jam. While it is very simple, it was very fun to create the mechanic of more lanes each level! Will you brave the halls?",
 		"https://jacob-cormier.itch.io/halls"
 	);
+	
+	// Team Project Section
+	
+		const soulSeedGame = new Project(
+		"Soul Seed",
+		"Soul-Seed-Splash.png",
+		"This was created using as part of a week-long game jam, the theme was Death Is Good. The game was made by a team of 5 including myself, Andrew Hawboldt, Bradley Brooker, Quinton Kennett and Trevor Turner",
+		"https://strangetimepiece.itch.io/soul-seed"
+	);
 
 	// append the html into the appropriate section
 	const projectSection = document.getElementById("my-projects");
 	projectSection.append(hallsGame.html);
 	projectSection.append(fishGame.html);
 	projectSection.append(helicopterGame.html);
+	
 
 	// secondary section, coffee run will go here
 	const otherProjectSection = document.getElementById("other-projects");
 	//otherProjectSection.append(coffeeRun.html);
+	otherProjectSection.append(soulSeedGame.html);
 	
 	// This function is called once on load to setup EventListeners
 	function updatePage() {
