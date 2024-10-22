@@ -70,7 +70,7 @@
 	const hallsGame = new Project(
 		"Halls",
 		"Halls.png",
-		"This was created using Love2D as part of a week-long game jam. While it is very simple, it was very fun to create the mechanic of more lanes each level! Will you brave the halls?",
+		"This was created using Love2D as part of a week-long game jam. With every passing level, the halls grow more expansive... Those who enter, never return. Will you brave the halls?",
 		"https://jacob-cormier.itch.io/halls"
 	);
 	
@@ -80,7 +80,7 @@
 	const soulSeedGame = new Project(
 		"Soul Seed",
 		"Soul-Seed-Splash.png",
-		"This was created using as part of a week-long game jam, the theme was Death Is Good. The game was made by a team of 5 including myself, Andrew Hawboldt, Bradley Brooker, Quinton Kennett and Trevor Turner",
+		"This was created using as part of a week-long game jam, the theme was Death Is Good. There is a playable web version through this link! The game was made by a team of 5 including myself, Andrew Hawboldt, Bradley Brooker, Quinton Kennett and Trevor Turner.",
 		"https://strangetimepiece.itch.io/soul-seed"
 	);
 	const diceOfDoomGame = new Project(

@@ -80,12 +80,12 @@
 	const soulSeedGame = new Project(
 		"Soul Seed",
 		"Soul-Seed-Splash.png",
-		"This was created using as part of a week-long game jam, the theme was Death Is Good. The game was made by a team of 5 including myself, Andrew Hawboldt, Bradley Brooker, Quinton Kennett and Trevor Turner",
+		"This was created using as part of a week-long game jam, the theme was Death Is Good. There is a playable web version through this link! The game was made by a team of 5 including myself, Andrew Hawboldt, Bradley Brooker, Quinton Kennett and Trevor Turner.",
 		"https://strangetimepiece.itch.io/soul-seed"
 	);
 	const diceOfDoomGame = new Project(
 		"Dice Of Doom",
-		"Soul-Seed-Splash.png",
+		"DiceOfDoomSplash.png",
 		"This game was created with Unity in a one month school project, along with my partner Jesse Henry. The game is a roguelike dice builder, where players roll a 20-sided die to defeat enemies who stand in their way. Each time an enemy is defeated, you can upgrade your die! How far can you roll before you meet your doom?",
 		"https://jacob-cormier.itch.io/dice-of-doom"
 	);
