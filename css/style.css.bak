@@ -218,7 +218,7 @@ img {
 		padding: 0px 20vw;
 	}
 	
-		#other-projects {
+	#other-projects {
 		/* This and other-projects will need to be changed to grids*/
 		display: flex;
 		flex-direction: column;

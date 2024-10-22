@@ -286,7 +286,12 @@ img {
 	}
 
 
-
+/*===== ABOUT ME =====*/
+	#about-me-paragraph{
+		margin: auto;
+		text-align: left;
+		max-width: 40%;
+	}
 
 
 .debug {
