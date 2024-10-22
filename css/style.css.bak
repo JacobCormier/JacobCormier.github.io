@@ -276,6 +276,11 @@ img {
 		flex-direction: column;
 		gap: 0px;
 	}
+	
+	#about-me-paragraph{
+		max-width: 80%;
+	}
+	
 }
 
 /*===== OTHER PROJECTS =====*/
@@ -286,7 +291,12 @@ img {
 	}
 
 
-
+/*===== ABOUT ME =====*/
+	#about-me-paragraph{
+		margin: auto;
+		text-align: left;
+		max-width: 40%;
+	}
 
 
 .debug {
