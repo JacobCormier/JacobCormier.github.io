@@ -70,7 +70,7 @@
 	const hallsGame = new Project(
 		"Halls",
 		"Halls.png",
-		"This was created using Love2D as part of a week-long game jam. While it is very simple, it was very fun to create the mechanic of more lanes each level! Will you brave the halls?",
+		"This was created using Love2D as part of a week-long game jam. With every passing level, the halls grow more expansive... Those who enter, never return. Will you brave the halls?",
 		"https://jacob-cormier.itch.io/halls"
 	);
 	

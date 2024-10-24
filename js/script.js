@@ -92,7 +92,7 @@
 	const coffeeRunGame = new Project(
 		"Coffee Run",
 		"CoffeeRun_Title.png",
-		"This was created using as part of a week-long game jam, the theme was It's Not Supposed To Do That! This game was made by myself, Bradley Hasson, Jesse Henry and Travis Wilson",
+		"This was created using as part of a week-long game jam, the theme was It's Not Supposed To Do That! This game was made by myself, Albert Simms, Bradley Hasson, Jesse Henry and Travis Wilson",
 		"https://jacob-cormier.itch.io/coffee-run"
 	);
 
