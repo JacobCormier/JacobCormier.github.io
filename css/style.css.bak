@@ -270,18 +270,6 @@ img {
 		margin-top: 50px;
 	}
 	
-	/* Project items will be in a column if screen is too small */
-	@media only screen and (max-width: 900px) {
-	.projectItem{
-		flex-direction: column;
-		gap: 0px;
-	}
-	
-	#about-me-paragraph{
-		max-width: 80%;
-	}
-	
-}
 
 /*===== OTHER PROJECTS =====*/
 
@@ -303,3 +291,13 @@ img {
 	background-color: #15F5BA;
 }
 
+/* MEDIA QUERIES :: I'm going to try and keep all media queries below this section */
+
+/*===== MY PROJECTS =====*/
+
+/* Project items will be in a column if screen is too small */
+@media only screen and (max-width: 900px) {
+.projectItem{
+	flex-direction: column;
+	gap: 0px;
+}
