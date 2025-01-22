@@ -155,30 +155,21 @@
 			<h4 class = "bigTextWithTopPadding textBackdrop">
 			  About Me
 			</h4>
-			<p id="about-me-paragraph">
-				I am an enthuastic game developer and designer, 
-				with excellent interpersonal communication skills and a thirst to create. 
-				Making games has always been something I've been drawn to in all forms, 
-				from becoming a Game Master for Dungeons & Dragons,
-				to programming my first game and all that have come after it,
-				creating a fun experience for my players is an addicting feeling,
-				that I have come across in no other career.
+			<p class = "about-me-paragraph">
+				I am an enthuastic game developer and designer, with excellent interpersonal communication skills and a thirst to create. Making games has always been something I've been drawn to in all forms, from becoming a Game Master for Dungeons & Dragons, to programming my first game and all that have come after it, creating a fun experience for my players is an addicting feeling, that I have come across in no other career.
 				<br>
 				<br>
-				When I am not scratching my head over bugs in my code you can find me with my 
-				rogue of a cat Mochi, as he steals every blanket in the house and 
-				hordes them like a dragon.
-				<br>
-				<br>
-				I live in New Brunswick, Canada where I spend my most of my days
-				programming, consuming music, games, and film, reorganizing blankets and spending time with family.
+				When I am not scratching my head over bugs in my code you can find me with my rogue of a cat Mochi, as he steals every blanket in the house and hordes them like a dragon.
 			</p>
-				<img src="images/Mochi&Me.jpg"        alt="Picture of me and my cat, Mochi">
+			<img src="images/Mochi&Me.jpg"        alt="Picture of me and my cat, Mochi">
+			<p class = "about-me-paragraph">
+				I live in New Brunswick, Canada where I spend my most of my days programming, consuming music, games, and film, reorganizing blankets and spending time with family.
+			</p>
 		  </div>
 		</section>
 	  
 		<!-- contact me -->
-		<section class="fullPageElement">
+		<section id="contact-me" class="fullPageElement">
 		  <div>
 			<h5  class = "bigTextWithTopPadding textBackdrop">
 			  Contact Me
@@ -191,7 +182,7 @@
 	  
 		<!-- footer (but not an actual footer) -->
 		<footer class="debug">
-			<p>
+			<p class="my-footer">
 			  Website by Jacob Cormier, 2024  
 			</p>
 		</footer>

@@ -249,9 +249,9 @@ img {
 	}
 
 	.projects:hover {
-		opacity: 0.5;
-		border: 20px solid #15F5BA;
-		padding: 5px;
+		transform: scale(1.05);
+		transition: transform 0.3s ease, border-color 0.3s ease;
+		border-color: #15F5BA;
 	}
 	
 	.projectItem {
@@ -280,15 +280,33 @@ img {
 
 
 /*===== ABOUT ME =====*/
-	#about-me-paragraph{
+	#about-me{
+		display: flex;
+		flex-direction: column; /* Stack children vertically */
+		padding: 20px; /* Add padding as needed */
+		min-height: auto; /* Ensure it grows with content */
+	}
+
+	.about-me-paragraph{
 		margin: auto;
+		margin-top: 60px;
+		margin-bottom: 60px;
 		text-align: left;
 		max-width: 40%;
+	}
+	
+/*===== CONTACT ME =====*/	
+	#contact-me{
+		
 	}
 
 
 .debug {
 	background-color: #15F5BA;
+}
+
+.my-footer{
+	color: #211951;
 }
 
 
@@ -305,3 +323,10 @@ img {
 	flex-direction: column;
 	gap: 0px;
 }
+
+.about-me-paragraph{
+		margin: 20px;
+		max-width : 100%;
+}
+
+}/* Media Query End - max-width: 900px*/
