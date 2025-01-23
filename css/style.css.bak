@@ -130,7 +130,7 @@ img {
 
 	.spaceElementsVertical {
 		margin-top: 20vw;
-		margin-bottom: 20vw;
+		margin-bottom: 40px;
 		
 		/* Lots of flex code to align this, probably not permanent... */
 		display: flex;
@@ -187,8 +187,8 @@ img {
 		  margin: auto;
 		  border-radius: 0px;	
 		
-		height: 4em;
-		max-width: 4em;
+		height: 8em;
+		max-width: 8em;
 	}
 	
 	
@@ -217,7 +217,7 @@ img {
 	  
 	  
 	  opacity: 0;
-	  transition: opacity 0.3s ease-in-out;
+	  transition: opacity 0.4s ease-in-out;
 	}
 
 	/* Show the tooltip text when you mouse over the tooltip container */
@@ -336,6 +336,12 @@ img {
 
 /* Project items will be in a column if screen is too small */
 @media only screen and (max-width: 900px) {
+.skillsLogoImage{
+
+
+}	
+	
+	
 .projectItem{
 	flex-direction: column;
 	gap: 0px;
