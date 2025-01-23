@@ -200,7 +200,6 @@ img {
 
 	/* Tooltip text */
 	.tooltip .tooltiptext {
-	  visibility: hidden;
 	  background-color: #836FFF;
 	  color: #fff;
 	  text-align: center;
@@ -215,11 +214,15 @@ img {
 	  /* Position the tooltip text - see examples below! */
 	  position: absolute;
 	  z-index: 1;
+	  
+	  
+	  opacity: 0;
+	  transition: opacity 0.4s ease-in-out;
 	}
 
 	/* Show the tooltip text when you mouse over the tooltip container */
 	.tooltip:hover .tooltiptext {
-	  visibility: visible;
+	  opacity: 100;
 	}
 
 
