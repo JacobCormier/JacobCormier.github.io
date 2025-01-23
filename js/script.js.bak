@@ -111,6 +111,7 @@
 
 	// secondary section, coffee run will go here
 	const otherProjectSection = document.getElementById("other-projects");
+	otherProjectSection.append(quietIslandsGame.html)
 	otherProjectSection.append(soulSeedGame.html);
 	otherProjectSection.append(diceOfDoomGame.html);
 	otherProjectSection.append(coffeeRunGame.html);
