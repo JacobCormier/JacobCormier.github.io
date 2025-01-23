@@ -150,7 +150,7 @@
 		</section>
 
 		<!-- about me -->
-		<section class="fullPageElement">
+		<section id="about-me">
 		  <div>
 			<h4 class = "bigTextWithTopPadding textBackdrop">
 			  About Me

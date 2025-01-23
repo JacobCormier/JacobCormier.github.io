@@ -1,5 +1,19 @@
 /*Script.js for Jacob Cormier Portfolio website*/
 
+
+/* COLORS
+
+	#F0F3FF = Off-White Font Color, purple tint
+	#211951 = Main Background Purple Color
+	#836FFF = Main Purple Color
+	#15F5BA = Teal Highlight
+	
+	#ff836f = Left Pink gradient fade, used at 0.1 alpha
+	#6fff83 = Right Mint gradient fade, used at 0.1 alpha
+
+*/
+
+
 /*===== SETUP =====*/
 /* Universal Selector, defaults */
 /* Box-sizing and the box model fix */
