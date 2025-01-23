@@ -76,6 +76,12 @@
 	
 	// Team Project Section
 	
+	const quietIslandsGame = new Project(
+		"Quiet Islands",
+		"quietislands.png",
+		"This is a game I worked on at Reframe Games. I touched almost every part of this game, from scoring to achievements to localization! This was one of my first Godot projects and I learned so much about how the engine works",
+		"https://reframegames.itch.io/quiet-islands"
+	);
 		
 	const soulSeedGame = new Project(
 		"Soul Seed",
@@ -92,7 +98,7 @@
 	const coffeeRunGame = new Project(
 		"Coffee Run",
 		"CoffeeRun_Title.png",
-		"This was created using Love2D as part of a week-long game jam, the theme was 'It's Not Supposed To Do That'! This game was made by myself, Albert Simms, Bradley Hasson, Jesse Henry and Travis Wilson. I worked on the level design, player mechanics and implementing the art and UI",
+		"This was created using Love2D as part of a week-long game jam, the theme was 'It's Not Supposed To Do That!'. This game was made by myself, Albert Simms, Bradley Hasson, Jesse Henry and Travis Wilson. I worked on the level design, player mechanics and implementing the art and UI",
 		"https://jacob-cormier.itch.io/coffee-run"
 	);
 

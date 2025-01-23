@@ -76,6 +76,12 @@
 	
 	// Team Project Section
 	
+	const quietIslandsGame = new Project(
+		"Quiet Islands",
+		"quietislands.png",
+		"This is a game I worked on at Reframe Games. I touched almost every part of this game, from scoring to achievements to localization! This was one of my first Godot projects and I learned so much about how the engine works",
+		"https://reframegames.itch.io/quiet-islands"
+	);
 		
 	const soulSeedGame = new Project(
 		"Soul Seed",
@@ -105,6 +111,7 @@
 
 	// secondary section, coffee run will go here
 	const otherProjectSection = document.getElementById("other-projects");
+	otherProjectSection.append(quietIslandsGame.html)
 	otherProjectSection.append(soulSeedGame.html);
 	otherProjectSection.append(diceOfDoomGame.html);
 	otherProjectSection.append(coffeeRunGame.html);
