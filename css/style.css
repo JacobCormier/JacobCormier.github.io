@@ -22,6 +22,9 @@ html {
   font-size: 62.5%; /* 10 px */
   
   width: 100vw;
+  
+  scrollbar-color: #F0F3FF #211951;
+  scrollbar-width: thin;
 }
 
 *, *:before, *:after {

@@ -22,6 +22,9 @@ html {
   font-size: 62.5%; /* 10 px */
   
   width: 100vw;
+  
+  scrollbar-color: #F0F3FF #211951;
+  scrollbar-width: thin;
 }
 
 *, *:before, *:after {
@@ -169,12 +172,13 @@ img {
 		list-style-type: none; 
 	}
 	
-	#skillGrid li{
+	.skillBlock{
 		margin: 20px;
 		
 		background-image: linear-gradient(to    right, rgba(0,0,0,0) , #836FFF);
 		padding: 10px;
 		border-radius: 10px;
+		max-width: 10px;
 	}
 	
 	.skillsLogoImage {
