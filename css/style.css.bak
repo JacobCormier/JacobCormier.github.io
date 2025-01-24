@@ -337,8 +337,8 @@ img {
 /* Project items will be in a column if screen is too small */
 @media only screen and (max-width: 900px) {
 .skillsLogoImage{
-
-
+		height: 4em;
+		max-width: 4em;
 }	
 	
 	

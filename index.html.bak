@@ -6,7 +6,6 @@
 	<!--Create JS to inject skills -->
 	<!--Proper sizing and spacing on the skill grid-->
 	<!--Footer and contact me need reworked -->
-	<!--Links open in new tabs-->
 	<!--Favicon-->
 
 
@@ -17,6 +16,7 @@
 	  <meta name="viewport"       content="width=device-width, initial-scale=1.0">
 		<title>Jacob Cormier | Game Developer</title>
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" type="image/x-icon" href="images/MochiFace.png">
 		<script src="js/script.js" defer></script>
 	</head>
 
@@ -207,7 +207,7 @@
 			<h5  class = "bigTextWithTopPadding textBackdrop">
 			  Contact Me
 			</h5>
-			<p>
+			<p style="padding-bottom: 30px;" >
 			  thejacobcormier@gmail.com
 			</p>
 		  </div>

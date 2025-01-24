@@ -26,7 +26,7 @@
 			
 			// Some of the inner HTML has a bunch of styles coded directly into it
 			listItem.innerHTML = `
-			<a href="${this.hyperlink}">
+			<a href="${this.hyperlink}" target="_blank" rel="noopener noreferrer">
 				<img class="projects" src="images/${this.imageSource}" alt="Picture of "${this.name}>
 			</a>
 			<div style="padding: 20px">
