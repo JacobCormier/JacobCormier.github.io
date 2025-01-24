@@ -1,11 +1,13 @@
 
 
 <!--Changes still required: -->
+	<!--Fix Contact me section-->
 	<!--Adding professional photo -->
 	<!--Create JS to inject skills -->
 	<!--Proper sizing and spacing on the skill grid-->
 	<!--Footer and contact me need reworked -->
-
+	<!--Links open in new tabs-->
+	<!--Favicon-->
 
 
 <!--index.html for Jacob Cormier Portfolio website-->
@@ -141,8 +143,6 @@
 						<span class="tooltiptext">Microsoft Office 365</span>
 					</div>
 				</li>
-
-				
 			</ul> 
 			
 		  </div>
@@ -202,7 +202,7 @@
 		</section>
 	  
 		<!-- contact me -->
-		<section id="contact-me" class="fullPageElement">
+		<section id="contact-me">
 		  <div>
 			<h5  class = "bigTextWithTopPadding textBackdrop">
 			  Contact Me
