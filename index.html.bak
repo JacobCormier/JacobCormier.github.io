@@ -26,8 +26,8 @@
 		<!-- this intro page is controlled by some javascript to get the desired behavior-->
 		<section id="introduction" class="fullPageElement">
 		  <div class="introText">
-			<h1 style="font-size:1.0em">Hi, I'm </h1>
-			<h1 id="titleName" style="font-size:1.0em">Jacob Cormier</h1>
+			<h1 style="font-size:0.7em">Hi, I'm </h1>
+			<h1 id="titleName" style="font-size:0.9em">Jacob Cormier</h1>
 			
 		  </div>
 		  <div id="introTextImage">
@@ -50,7 +50,7 @@
 			</p>
 			
 			<!-- Here are all of the systems I use! -->
-			<ul class="skillGrid">
+			<ul id="skillGrid">
 			
 				<li>
 					<div class="tooltip">

@@ -123,7 +123,7 @@ img {
 		top: 10px;
 
 		/* top-most element */
-		
+
 	}
 
 /*===== INTRO BLURB =====*/
@@ -162,14 +162,14 @@ img {
 
 	}
 	
-	.skillGrid {
+	#skillGrid {
 		display: grid; 
 		grid-template-columns: auto auto auto;
 		column-gap: 1vw;
 		list-style-type: none; 
 	}
 	
-	.skillGrid li{
+	#skillGrid li{
 		margin: 20px;
 		
 		background-image: linear-gradient(to    right, rgba(0,0,0,0) , #836FFF);
