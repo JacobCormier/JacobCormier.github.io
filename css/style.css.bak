@@ -178,7 +178,6 @@ img {
 		background-image: linear-gradient(to    right, rgba(0,0,0,0) , #836FFF);
 		padding: 10px;
 		border-radius: 10px;
-		max-width: 10px;
 	}
 	
 	.skillsLogoImage {
