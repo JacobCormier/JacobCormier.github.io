@@ -123,7 +123,7 @@ img {
 		top: 10px;
 
 		/* top-most element */
-
+		
 	}
 
 /*===== INTRO BLURB =====*/
@@ -319,7 +319,7 @@ img {
 
 
 .debug {
-	background-color: #15F5BA;
+	background-color: #836FFF;
 }
 
 .my-footer{

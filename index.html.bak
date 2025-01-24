@@ -6,7 +6,6 @@
 	<!--Create JS to inject skills -->
 	<!--Proper sizing and spacing on the skill grid-->
 	<!--Footer and contact me need reworked -->
-	<!--Favicon-->
 
 
 <!--index.html for Jacob Cormier Portfolio website-->
@@ -27,8 +26,8 @@
 		<!-- this intro page is controlled by some javascript to get the desired behavior-->
 		<section id="introduction" class="fullPageElement">
 		  <div class="introText">
-			<h1>Hi, I'm </h1>
-			<h1 id="titleName">Jacob Cormier</h1>
+			<h1 style="font-size:1.0em">Hi, I'm </h1>
+			<h1 id="titleName" style="font-size:1.0em">Jacob Cormier</h1>
 			
 		  </div>
 		  <div id="introTextImage">
