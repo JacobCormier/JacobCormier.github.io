@@ -127,6 +127,8 @@
 	//	"SKILL_TOOLTIP"
 	//);
 	
+	// Ideally skills are contained in groups of 3 for the purposes of the grid staying clean
+	
 	const godotSkillBlock = new SkillBlock(
 		"Godot",
 		"godot.png",
