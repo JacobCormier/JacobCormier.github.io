@@ -3,10 +3,9 @@
 <!--Changes still required: -->
 	<!--Fix Contact me section-->
 	<!--Adding professional photo -->
-	<!--Create JS to inject skills -->
 	<!--Proper sizing and spacing on the skill grid-->
 	<!--Footer and contact me need reworked -->
-
+	<!--Scaling skills responsively on larger screen sizes -->
 
 <!--index.html for Jacob Cormier Portfolio website-->
 <!DOCTYPE html>
