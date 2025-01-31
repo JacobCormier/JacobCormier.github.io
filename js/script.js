@@ -265,6 +265,15 @@
 	hallsGame.addSkillBlock(love2DSkillBlock)
 	hallsGame.addSkillBlock(luaSkillBlock)
 	
+	const icbmGame = new Project(
+		"I.C.B.M.",
+		"icbm.png",
+		"This was created as part of Pirate Software's Game Jam 16, where the theme was 'You are the Weapon'. I made this with my good friend Caleb Reath, and we had such a blast making it. It is fully playable in browser!",
+		"https://jacob-cormier.itch.io/icbm"
+	);
+	
+	icbmGame.addSkillBlock(godotSkillBlock)
+	
 	// Team Project Section
 	
 	const quietIslandsGame = new Project(
@@ -308,6 +317,7 @@
 
 	// append the html into the appropriate section
 	const projectSection = document.getElementById("my-projects");
+	projectSection.append(icbmGame.html);
 	projectSection.append(hallsGame.html);
 	projectSection.append(fishGame.html);
 	projectSection.append(helicopterGame.html);

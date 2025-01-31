@@ -127,6 +127,8 @@
 	//	"SKILL_TOOLTIP"
 	//);
 	
+	// Ideally skills are contained in groups of 3 for the purposes of the grid staying clean
+	
 	const godotSkillBlock = new SkillBlock(
 		"Godot",
 		"godot.png",
@@ -262,6 +264,15 @@
 	
 	hallsGame.addSkillBlock(love2DSkillBlock)
 	hallsGame.addSkillBlock(luaSkillBlock)
+	
+	const icbmGame = new Project(
+		"I.C.B.M.",
+		"icbm.png",
+		"This was created as part of Pirate Software's Game Jam 16, where the theme was 'You are the Weapon'. I made this with my good friend Caleb Reath, and we had such a blast making it. It is fully playable in browser!",
+		"https://jacob-cormier.itch.io/icbm"
+	);
+	
+	icbmGame.addSkillBlock(godotSkillBlock)
 	
 	// Team Project Section
 	
