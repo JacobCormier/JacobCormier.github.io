@@ -268,7 +268,7 @@
 	const icbmGame = new Project(
 		"I.C.B.M.",
 		"icbm.png",
-		"This was created as part of Pirate Software's Game Jam 16, where the theme was 'You are the Weapon'. I made this with my good friend Caleb Reath, and we had such a blast making it. It is fully playable in browser!",
+		"This was created as part of Pirate Software's Game Jam 16, where the theme was 'You are the Weapon'. I made this with my good friend Caleb Reath, and we had such a blast making it. It is fully playable in browser! I designed the game, programmed much of the gamplay, handled UI, created the retro music and more!",
 		"https://jacob-cormier.itch.io/icbm"
 	);
 	

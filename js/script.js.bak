@@ -317,6 +317,7 @@
 
 	// append the html into the appropriate section
 	const projectSection = document.getElementById("my-projects");
+	projectSection.append(icbmGame.html);
 	projectSection.append(hallsGame.html);
 	projectSection.append(fishGame.html);
 	projectSection.append(helicopterGame.html);
