@@ -5,6 +5,7 @@
 	<!--Proper sizing and spacing on the skill grid-->
 	<!--Footer and contact me need reworked -->
 	<!--Scaling skills responsively on larger screen sizes -->
+	<!--Fixing broken scrollbar for skills on project items -->
 
 <!--index.html for Jacob Cormier Portfolio website-->
 <!DOCTYPE html>
@@ -29,7 +30,7 @@
 			
 		  </div>
 		  <div id="introTextImage">
-			<img src="images/Mochi&Me.jpg"        alt="Picture of me and my cat, Mochi">
+			<img src="images/Headon.jpg"        alt="Picture of me and my cat, Mochi">
 		  </div>
 		</section>
 
